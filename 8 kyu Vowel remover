@@ -1,0 +1,9 @@
+function shortcut(string){
+var str = '';
+var vowel = 'aeiou';
+for ( let i = 0; i < string.length;i++){
+  if ( vowel.indexOf(string[i]) === -1)
+  str += string[i]
+}
+return str;
+}
