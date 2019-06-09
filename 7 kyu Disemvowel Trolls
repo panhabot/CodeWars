@@ -1,0 +1,9 @@
+function disemvowel(str) {
+  let vow = 'aeiouAEIOU';
+  let dis = '';
+  for ( let i = 0 ; i< str.length;i++){
+  if ( vow.indexOf(str[i]) === -1)
+  dis += str[i];
+  }
+  return dis
+}
