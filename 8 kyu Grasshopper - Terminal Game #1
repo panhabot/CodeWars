@@ -1,0 +1,11 @@
+function Hero (na) {
+  // add default values here
+  var HeroPrototye = {
+  name :  na || 'Hero' ,
+  position: '00',
+  health: 100,
+  damage: 5,
+  experience: 0
+}
+return HeroPrototye
+}
