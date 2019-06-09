@@ -1,0 +1,10 @@
+function maps(x){
+var newx = [];
+var num = 0;
+for ( var i = 0 ; i < x.length ; i++)
+{
+num = x[i] * 2;
+newx.push(num);
+}
+return newx;
+}
