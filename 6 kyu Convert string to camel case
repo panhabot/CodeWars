@@ -1,0 +1,3 @@
+function toCamelCase(str){
+  return str.replace(/[-_]\w/g,e=>e[1].toUpperCase());
+}
